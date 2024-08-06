@@ -30,7 +30,7 @@ app.post('/convert-pdf', async (req, res) => {
       format: 'A4',
       printBackground: true,
     };
-        const pdf = await page.pdf({ format: 'A4' });
+        const pdf = await page.pdf(pdfOptions);
 
         // Close browser
         await browser.close();

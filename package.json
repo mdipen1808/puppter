@@ -1,0 +1,18 @@
+{
+  "name": "puppter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "path": "^0.12.7",
+    "pdf-lib": "^1.17.1",
+    "puppeteer": "^22.13.1"
+  }
+}
